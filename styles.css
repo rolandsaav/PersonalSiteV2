@@ -28,6 +28,20 @@ body {
   background-color: rgba(27, 27, 27, 0.5);
 }
 
+.navBtn {
+  color: var(--highlight);
+  text-transform: uppercase;
+  background: none;
+  border: none;
+  cursor:pointer;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.navBtn:hover {
+  cursor: pointer;
+}
+
 .main {
   margin: auto;
   max-width: 1200px;
@@ -148,6 +162,7 @@ body {
   margin-top: .5rem;
   padding: 0 var(--padding);
   padding-top: 0;
+  
   padding-bottom: var(--padding);
 }
 
